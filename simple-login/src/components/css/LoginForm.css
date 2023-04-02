@@ -1,0 +1,49 @@
+.login-form-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.login-form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.login-form-username-label,.login-form-password-label{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+}
+
+.login-form-username-input,.login-form-password-input{
+    background-color: #171717;
+    border:1px solid white;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding:15px;
+    margin-left:50px;
+}
+
+.login-form-username-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.login-form-password-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top:50px;
+}
+
+.login-form-actions{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

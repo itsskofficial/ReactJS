@@ -1,0 +1,49 @@
+.error-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0,0, 0, 0.5);
+  }
+  
+  .error-modal {
+    position: fixed;
+    top: 30vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+  }
+  
+  .error-header {
+    background: #171717;
+    padding: 1rem;
+  }
+  
+  .error-header h2 {
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .error-content {
+    padding: 1rem;
+  }
+
+  .error-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+  }
+  
+  .error-actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }

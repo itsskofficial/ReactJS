@@ -1,0 +1,29 @@
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin: 30px;
+    background-color: #171717;
+}
+
+.expense-item-info{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.expense-item-title{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size:25px;
+    color: white;
+}
+
+.expense-item-price{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size:25px;
+    margin-left: 20px;
+    color: white;
+}

@@ -1,0 +1,14 @@
+.user-name{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+
+.user-age{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
